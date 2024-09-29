@@ -1,0 +1,100 @@
+body {
+    background-color: rgb(255, 255, 255);
+}
+.navbar a {
+    text-align: center;
+    display: inline-block;
+    color: black;
+    margin-left: 6rem;
+    padding-left: 6rem;
+    text-decoration: none;
+    font-size: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+
+.logo {
+    margin-top: 2rem;
+    margin-left: 1rem;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+}
+
+header h1 {
+    text-align: center;
+    color: rgb(26, 110, 1);
+    font-size: 3rem;
+    padding-bottom: 2rem;
+}
+
+.abstract .abstract-title{
+    font-size: 1.7rem;
+    text-align: center;
+}
+
+.abstract .abstract-text {
+    font-size: 1.2rem;
+}
+
+footer {
+    padding-top: 5rem;
+    text-align: center;
+}
+
+.project-description {
+    text-align: center;
+    padding-bottom: 2.5rem;
+    font-size: 2rem;
+}
+
+.image-container {
+    padding-left: 19rem;
+
+}
+
+.profile-picture {
+    border-radius: 25%;
+    margin-left: 5rem;
+    width: 7rem;
+    height: 7rem;
+    animation: upDown 2s ease-in-out infinite;
+}
+
+.ai-model {
+    padding-top: 2rem;
+}
+
+.ai-model .time-series {
+    width: 50rem;
+    height: 25rem;
+}
+.ai-model .diagram {
+    width: 25rem;
+    height: 25rem;
+    padding-left: 5rem;
+    padding-right: 3rem;
+}
+
+.janavi-diagram {
+    height: 20rem;
+    width: 20rem;
+    padding-bottom: 5rem;
+}
+
+.lstm {
+    height: 25rem;
+    width: 35rem;
+    padding-bottom: 5rem;
+}
+@keyframes upDown {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
