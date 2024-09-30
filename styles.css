@@ -89,6 +89,10 @@ footer p {
     font-size: 2rem;
 }
 
+figcaption {
+    text-align: center;
+}
+
 .image-container {
     padding-left: 12rem;
 
