@@ -149,7 +149,7 @@ figcaption {
     color: white; 
     background-color: rgb(44, 44, 181);
     border: none; 
-    border-radius: 25%; 
+    border-radius: 0%; 
     cursor: pointer; 
     transition: background-color 0.3s; 
 }
