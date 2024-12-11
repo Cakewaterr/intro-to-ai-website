@@ -173,6 +173,9 @@ figcaption {
 .video-button:hover {
     background-color: #cc0000;
 }
+h3{
+    justify-content:center;
+}
 
 @keyframes upDown {
     0% {
